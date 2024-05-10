@@ -1,7 +1,6 @@
 {
   "name": "My_Portfolio_V2",
   "version": "0.1.0",
-  "homepage": "https://github.com/t3ng221/My_Portfolio_V2",
   "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
