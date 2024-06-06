@@ -152,25 +152,9 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 0,
-    img: "https://media.licdn.com/dms/image/D560BAQGClmuWIKhM_g/company-logo_200_200/0/1701946407722?e=2147483647&v=beta&t=ZAnVV8um1xPpOHpdu-vk_xBksVtGL_BFiPwy_HKdLIc",
-    role: "Backend Developer",
-    company: "Innovatica Software Lab",
-    date: "May 2024 - Present",
-    desc: "Working on the backend for a ecommerce site with express js, mongodb.",
-    skills: [
-      "JavaScript",
-      "Next Js",
-      "Node Js",
-      "Express JS",
-      "MongoDB",
-      "Postman",
-    ],
-  },
-  {
     id: 1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPFdj1NGoUXBUelRa-tlKoPUE5cxfdV96IzCg1OcNciQ&s",
-    role: "Trainee",
+    role: "Software Engineer Intern",
     company: "Spring Rain Pvt. Ltd.",
     date: "March 2024 - Running",
     desc: "I am currently enrolled in a Full Stack [MERN] Career Development Program at Spring Rain Ltd. I got good at React JS and Next JS for creating user-friendly interfaces and Express JS for building strong backend services, especially using MongoDB and DynamoDB. I also explored Koa JS and learned to use tools like Git and Jira. I also got an in-depth idea of MVC pattern and some basic knowledge of Microservices. Now, I feel ready to handle tech challenges and contribute to projects effectively.",
@@ -300,11 +284,4 @@ export const projects = [
     github: "https://github.com/t3ng221/face_maask_detection-using-openCV",
     webapp: "https://github.com/t3ng221/face_maask_detection-using-openCV",
   },
-];
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
 ];
