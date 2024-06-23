@@ -172,24 +172,6 @@ export const experiences = [
       "AWS",
     ],
   },
-
-  {
-    id: 2,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLktKXwI_169u-jMVAzxUQRHvcUgq6F87Ub_SPgp_EEA&s",
-    role: "Project Manager",
-    company: "Ecomclips",
-    date: "Nov 2022 - April 2024",
-    desc: "During my tenure at Ecomclips as a PPC expert, I specialized in Amazon advertising. I managed campaigns, conducted keyword research, crafted ad copy, adjusted bids, targeted audiences, and analyzed performance data to maximize client sales and profitability. My role involved leveraging Amazon's platform to drive traffic, enhance product visibility, and optimize sales for e-commerce clients. Additionally, I monitored competitors, stayed updated on industry trends, and adapted strategies to maintain our clients' competitive edge.",
-    skills: [
-      "Project Management",
-      "Clickup",
-      "Team Work",
-      "Deadline Handling",
-      "PPC",
-      "Amazon Advertising",
-      "Campaingn Management",
-    ],
-  },
 ];
 
 export const education = [
