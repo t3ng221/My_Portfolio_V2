@@ -1,8 +1,8 @@
 export const Bio = {
   name: "Md. Sazedur Rahman",
-  roles: ["Full Stack Developer", "Backend Developer", "Project Manager"],
+  roles: ["Software Engineer"],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a passionate software engineer with a strong foundation in web application development. I have experience in building scalable applications using modern technologies like React, Node.js, and MongoDB. I am always eager to learn new skills and take on challenging projects.",
   github: "https://github.com/t3ng221",
   resume:
     "https://drive.google.com/file/d/1ZZVw9LoLzhKHRan4hdTnwIR6GHBwE5Zk/view?usp=sharing",
@@ -13,6 +13,12 @@ export const skills = [
   {
     title: "Frontend",
     skills: [
+         {
+        name: "JavaScript",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+
       {
         name: "React Js",
         image:
@@ -24,29 +30,20 @@ export const skills = [
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
       {
-        name: "Next Js",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
+        name: "Zustand",
+        image:"https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg",
       },
-      {
-        name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-      },
+     
       {
         name: "Tailwind CSS",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png",
       },
       {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        name: "Ant Design",
+        image:"https://static-00.iconduck.com/assets.00/ant-design-icon-512x512-xbdsnx83.png"
       },
-      {
-        name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },
+   
       {
         name: "Material UI",
         image:
@@ -96,16 +93,6 @@ export const skills = [
         image:
           "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
       },
-      {
-        name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      },
-      {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-      },
     ],
   },
   {
@@ -115,17 +102,7 @@ export const skills = [
         name: "Git",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
+      }, 
       {
         name: "Netlify",
         image:
@@ -156,8 +133,8 @@ export const experiences = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPFdj1NGoUXBUelRa-tlKoPUE5cxfdV96IzCg1OcNciQ&s",
     role: "Software Engineer Intern",
     company: "Spring Rain Pvt. Ltd.",
-    date: "March 2024 - Running",
-    desc: "I am currently enrolled in a Full Stack [MERN] Career Development Program at Spring Rain Ltd. I got good at React JS and Next JS for creating user-friendly interfaces and Express JS for building strong backend services, especially using MongoDB and DynamoDB. I also explored Koa JS and learned to use tools like Git and Jira. I also got an in-depth idea of MVC pattern and some basic knowledge of Microservices. Now, I feel ready to handle tech challenges and contribute to projects effectively.",
+    date: "Feb 2024 - Jube 2024",
+    desc: "During my internship at Spring Rain Pvt. Ltd., I worked as a Software Engineer Intern where I was responsible for developing and maintaining web applications using Next.js and Node.js. I collaborated with senior developers to implement new features, fix bugs, and optimize application performance. This experience enhanced my skills in full-stack development and provided me with valuable insights into the software development lifecycle.",
     skills: [
       "JavaScript",
       "TypeScript",
@@ -172,6 +149,24 @@ export const experiences = [
       "AWS",
     ],
   },
+  {
+    id:2,
+    img: "https://framerusercontent.com/images/45QzzHjhiZ4M16bV7RZyePZc8Ws.png",
+    role: "Software Engineer (J1)",
+    company:"Strativ AB",
+    desc: "I am currently working as a Software Engineer (J1) at Strativ AB, where I am involved in developing and maintaining web applications using React JS and Node JS. My role includes collaborating with cross-functional teams to deliver high-quality software solutions, implementing new features, and optimizing existing code for performance and scalability.",
+    date: "July 2024 - Running",
+    skills:[
+      "JavaScript",
+      "TypeScript",
+      "React JS",
+     "Styled Components",
+     "Ant Design",
+     "Zustand",
+     "React Query",
+    
+    ]
+  }
 ];
 
 export const education = [
@@ -181,7 +176,7 @@ export const education = [
     school: "Daffodil International University",
     date: "April 2018 - July 2022",
     grade: "3.62 CGPA",
-    desc: "I pursured my bachelor degree from the department of CSE.",
+    desc: "I completed my Bachelor's degree in Computer Science and Engineering from Daffodil International University. During my time there, I gained a strong foundation in software development, algorithms, data structures, and web technologies. I also participated in various projects and internships that helped me apply my theoretical knowledge to real-world scenarios.", 
     degree: "Bachelor of Science - Computer Science and Engineering",
   },
   {
@@ -253,17 +248,5 @@ export const projects = [
     category: "android app",
     github: "https://github.com/t3ng221/E-Med-Reminder",
     webapp: "https://github.com/t3ng221/E-Med-Reminder",
-  },
-  {
-    id: 8,
-    title: "Fcae Mask Detection",
-    description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image:
-      "https://media.geeksforgeeks.org/wp-content/uploads/20210527184734/3.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-    category: "machine learning",
-    github: "https://github.com/t3ng221/face_maask_detection-using-openCV",
-    webapp: "https://github.com/t3ng221/face_maask_detection-using-openCV",
   },
 ];

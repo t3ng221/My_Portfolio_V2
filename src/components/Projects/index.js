@@ -1,8 +1,7 @@
-import React from 'react'
 import { useState } from 'react'
-import { Container, Wrapper, Title, Desc, CardContainer, ToggleButtonGroup, ToggleButton, Divider } from './ProjectsStyle'
-import ProjectCard from '../Cards/ProjectCards'
 import { projects } from '../../data/constants'
+import ProjectCard from '../Cards/ProjectCards'
+import { CardContainer, Container, Desc, Divider, Title, ToggleButton, ToggleButtonGroup, Wrapper } from './ProjectsStyle'
 
 
 const Projects = ({openModal,setOpenModal}) => {
@@ -32,12 +31,7 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
           }
-          <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-            :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-          }
+        
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
