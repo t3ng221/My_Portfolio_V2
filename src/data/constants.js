@@ -6,7 +6,7 @@ export const Bio = {
   github: "https://github.com/t3ng221",
   resume:
     "https://drive.google.com/file/d/1ZZVw9LoLzhKHRan4hdTnwIR6GHBwE5Zk/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/sazedur221/",
+  linkedin: "https://www.linkedin.com/in/md-sazedur-rahman-837179335/",
 };
 
 export const skills = [
